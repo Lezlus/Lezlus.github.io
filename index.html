@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Rafael Bravo</title>
+  </head>
+  <body>
+    <main>
+      <div class="hero" id="home">
+        <div class="heading animate__animated" id="landingPage">
+          <div id="headingLine1" class="heading__line-1">
+            Hello, I'm <span>Rafael</span>.
+          </div>
+          <div id="headingLine2" class="heading__line-2">
+            I'm a full stack web developer.
+          </div>
+          <a id="headingLink" href="#projects" class="btn btn-outline-primary heading__link animate__animated">
+            View my work <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+      </div>
+      <nav class="navigation-bar">
+        <ul class="navigation" >
+          <li class="navigation__item" id="nav-home"><a href='#home'>Home</a></li>
+          <li class="navigation__item" id="nav-about"><a href='#about'>About</a></li>
+          <li class="navigation__item" id="nav-project"><a href='#projects'>Projects</a></li>
+          <li class="navigation__item" id="nav-contact"><a href='#contact'>Contact</a></li>
+        </ul>
+      </nav>
+      <section class="about container" id="about">
+        <h2 class="about__heading section-heading">
+          About
+        </h2>
+        <div class="about__content">
+          <div class="profile">
+            <div class="profile__picture">
+              <i class="fa-regular fa-user"></i>
+            </div>
+            <p class="profile__blurb">
+              Fully committed to improving every day, since I started my web development journey two years ago I lost count of how many hours I spent working on projects or reading up on new technologies. My innate curiosity to learn kept me disciplined to learn something new daily. I have a focus on React with Typescript and Node.js but of course, I'm always open to new challenges.
+            </p>
+          </div>
+          <div class="skills">
+            <div class="skills__row">
+              <div class="skills__item">
+                <img src="./images/express.png">
+                <div class="skills__item-name">EXPRESS.JS</div>
+              </div>
+              <div class="skills__item">
+                <img src="./images/mongoDb.png">
+                <div class="skills__item-name">MONGODB</div>
+              </div>
+            </div>
+            <div class="skills__row">
+              <div class="skills__item">
+                <img src="./images/react.png">
+                <div class="skills__item-name">REACT</div>
+              </div>
+              <div class="skills__item">
+                <img src="./images/PostgreSQL_logo.3colors.120x120.png">
+                <div class="skills__item-name">POSTGRESQL</div>
+              </div>
+              <div class="skills__item">
+                <img src="./images/ts-logo-128.png">
+                <div class="skills__item-name">TYPESCRIPT</div>
+              </div>
+            </div>
+            <div class="skills__row">
+              <div class="skills__item">
+                <img src="./images/Moby-logo.png">
+                <div class="skills__item-name">DOCKER</div>
+              </div>
+              <div class="skills__item">
+                <img src="./images//nextJs.png">
+                <div class="skills__item-name">NEXT.JS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects container-fluid" id="projects">
+        <h2 class="projects__heading section-heading">Projects</h2>
+        <div class="project project-left">
+          <a href="https://github.com/Lezlus/bookstoreReact" target="_blank">
+            <div class="project__image-container weather">
+              <div class="project__image-image">
+                <img class="img-fluid" src="./images/bookstoreDesktop.jpg">
+              </div>
+            </div>
+          </a>
+          <div class="project__info project__info-right animate__animated">
+            <h3 class="project__title">
+              Manga Bookstore
+            </h3>
+            <p class="project__description">
+              Full stack bookstore built with React, Node.js, Express.js,
+              PostgreSQL, and AWS S3.
+            </p>
+            <a href="https://github.com/Lezlus/bookstoreReact" target="_blank">
+              <div class="project__live-2">
+                LEARN MORE
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="project project-right">
+          <div class="project__info project__info-left animate__animated">
+            <h3 class="project__title">
+              YouTube Music Clone
+            </h3>
+            <p class="project__description">
+              Comes packed with all the features of a modern music player.
+              Built with React, Node.js, Express.js, and MongoDB.
+            </p>
+            </p>
+            <a href="https://github.com/Lezlus/youtube-music-copy" target="_blank">
+              <div class="project__live-2">
+                LEARN MORE
+              </div>
+            </a>
+          </div>
+          <a href="https://github.com/Lezlus/youtube-music-copy" target="_blank">
+            <div class="project__image-container weather">
+              <div class="project__image-image">
+                <img class="img-fluid" src="./images/Screenshot 2022-10-08 205414.jpg">
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="project project-left">
+          <a href="https://github.com/Lezlus/chatApp" target="_blank">
+            <div class="project__image-container weather">
+              <div class="project__image-image">
+                <img class="img-fluid" src="./images/chatAppDesktop.jpg">
+              </div>
+            </div>
+          </a>
+          <div class="project__info project__info-right animate__animated">
+            <h3 class="project__title">
+              Real Time Chat App
+            </h3>
+            <p class="project__description">
+              A real time chat messaging app. Built with web sockets, Django Channels, 
+              Redis, Docker, and React.
+            </p>
+            <a href="https://github.com/Lezlus/chatApp" target="_blank">
+              <div class="project__live-2">
+                LEARN MORE
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="socials">
+        <a href="https://github.com/Lezlus" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:rafaelbrvo00@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b0c1ce77e8.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
